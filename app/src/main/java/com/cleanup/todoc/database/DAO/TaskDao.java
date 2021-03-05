@@ -17,7 +17,6 @@ public interface TaskDao {
 
     // METHODS
 
-
     // CREATE
     @Insert
     long insertTask(final Task task);
